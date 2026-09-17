@@ -1,16 +1,3 @@
-# num = int(input("Enter a number: "))
-# reverse = 0
-# while num > 0:
-#     digit = num % 10
-#     reverse = reverse * 10 + digit
-#     num //= 10
-# print("The reversed number is:", reverse)
-
-# string = (input("enter the string:"))
-# reverse = ""
-# for ch in string:
-#     reverse = ch + reverse 
-# print("The reversed string is:", reverse)       
 
 
 # enter a sentence and count the letter in the sentence and print the letter with their count in the sentence
