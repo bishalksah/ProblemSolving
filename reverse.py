@@ -1,5 +1,3 @@
-
-
 # enter a sentence and count the letter in the sentence and print the letter with their count in the sentence
 
 sentence = input("Enter a sentence: ")
@@ -58,12 +56,11 @@ print("The second last most frequent letter is:", secondlastmost_frequent_letter
 
 
 #1 distinct letters in a sentence 
-
-
-
-
-
+distinct_letters = set(sentence)
+print("Distinct letters in the sentence:", distinct_letters)
 
 
 #2 count of distinct letter in a sentence
+count_distinct_letters = len(distinct_letters)
+print("Count of distinct letters in the sentence:", count_distinct_letters) 
  
