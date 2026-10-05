@@ -10,7 +10,6 @@
 n = 5
 for i in range(n):
     for j in range(n):
-        
         if (i == 0 and j in [0, 4]):
             print(1 if j == 0 else 3, end="")
         elif (i == 4 and j in [0, 4]):
